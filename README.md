@@ -1,5 +1,5 @@
 
-![Calculator Screenshot](https://github.com/MariamYousry1234/Simple-Calculator/blob/master/Simple%20Calculator%20Image1.PNG?raw=true)![Calculator Screenshot](https://github.com/MariamYousry1234/Simple-Calculator/blob/master/Simple%20Calculator%20Image2.PNG?raw=true)
+![Calculator Screenshot](https://github.com/MariamYousry1234/Simple-Calculator/blob/master/Simple%20Calculator%20Image1.PNG?raw=true)    ![Calculator Screenshot](https://github.com/MariamYousry1234/Simple-Calculator/blob/master/Simple%20Calculator%20Image2.PNG?raw=true)
 
 # Simple Calculator
 
