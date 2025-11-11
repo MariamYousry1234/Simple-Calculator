@@ -74,6 +74,7 @@ namespace Simple_Calculator
             this.groupBox1.Controls.Add(this.btn2);
             this.groupBox1.Controls.Add(this.btn1);
             this.groupBox1.Controls.Add(this.txtResults);
+            this.groupBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.groupBox1.Font = new System.Drawing.Font("Trebuchet MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(-10, -2);
             this.groupBox1.Name = "groupBox1";
@@ -84,6 +85,7 @@ namespace Simple_Calculator
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.ForeColor = System.Drawing.Color.Black;
             this.btnDelete.Location = new System.Drawing.Point(206, 173);
@@ -97,6 +99,7 @@ namespace Simple_Calculator
             // btnClear
             // 
             this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnClear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.ForeColor = System.Drawing.Color.Black;
             this.btnClear.Location = new System.Drawing.Point(30, 173);
@@ -110,6 +113,7 @@ namespace Simple_Calculator
             // btnEqual
             // 
             this.btnEqual.BackColor = System.Drawing.Color.Gray;
+            this.btnEqual.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEqual.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEqual.Font = new System.Drawing.Font("Trebuchet MS", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEqual.ForeColor = System.Drawing.Color.White;
@@ -124,6 +128,7 @@ namespace Simple_Calculator
             // btnAdd
             // 
             this.btnAdd.BackColor = System.Drawing.Color.Gray;
+            this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAdd.Font = new System.Drawing.Font("Trebuchet MS", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.White;
@@ -139,6 +144,7 @@ namespace Simple_Calculator
             // btnSubtract
             // 
             this.btnSubtract.BackColor = System.Drawing.Color.Gray;
+            this.btnSubtract.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSubtract.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSubtract.Font = new System.Drawing.Font("Trebuchet MS", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubtract.ForeColor = System.Drawing.Color.White;
@@ -155,6 +161,7 @@ namespace Simple_Calculator
             // 
             this.btnMultiple.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
             this.btnMultiple.BackColor = System.Drawing.Color.Gray;
+            this.btnMultiple.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMultiple.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnMultiple.Font = new System.Drawing.Font("Trebuchet MS", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMultiple.ForeColor = System.Drawing.Color.White;
@@ -170,6 +177,7 @@ namespace Simple_Calculator
             // btnDivision
             // 
             this.btnDivision.BackColor = System.Drawing.Color.Gray;
+            this.btnDivision.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDivision.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDivision.Font = new System.Drawing.Font("Trebuchet MS", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDivision.ForeColor = System.Drawing.Color.White;
@@ -185,6 +193,7 @@ namespace Simple_Calculator
             // btnDecimalPoint
             // 
             this.btnDecimalPoint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnDecimalPoint.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDecimalPoint.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDecimalPoint.Font = new System.Drawing.Font("Trebuchet MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDecimalPoint.ForeColor = System.Drawing.Color.Blue;
@@ -200,6 +209,7 @@ namespace Simple_Calculator
             // btn0
             // 
             this.btn0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn0.Font = new System.Drawing.Font("Trebuchet MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.ForeColor = System.Drawing.Color.Blue;
@@ -215,6 +225,7 @@ namespace Simple_Calculator
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Trebuchet MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.Blue;
@@ -230,6 +241,7 @@ namespace Simple_Calculator
             // btn8
             // 
             this.btn8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn8.Font = new System.Drawing.Font("Trebuchet MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.ForeColor = System.Drawing.Color.Blue;
@@ -245,6 +257,7 @@ namespace Simple_Calculator
             // btn7
             // 
             this.btn7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn7.Font = new System.Drawing.Font("Trebuchet MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.ForeColor = System.Drawing.Color.Blue;
@@ -260,6 +273,7 @@ namespace Simple_Calculator
             // btn6
             // 
             this.btn6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn6.Font = new System.Drawing.Font("Trebuchet MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.ForeColor = System.Drawing.Color.Blue;
@@ -275,6 +289,7 @@ namespace Simple_Calculator
             // btn5
             // 
             this.btn5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn5.Font = new System.Drawing.Font("Trebuchet MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.ForeColor = System.Drawing.Color.Blue;
@@ -290,6 +305,7 @@ namespace Simple_Calculator
             // btn4
             // 
             this.btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn4.Font = new System.Drawing.Font("Trebuchet MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.ForeColor = System.Drawing.Color.Blue;
@@ -305,6 +321,7 @@ namespace Simple_Calculator
             // btn3
             // 
             this.btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn3.Font = new System.Drawing.Font("Trebuchet MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.ForeColor = System.Drawing.Color.Blue;
@@ -320,6 +337,7 @@ namespace Simple_Calculator
             // btn2
             // 
             this.btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn2.Font = new System.Drawing.Font("Trebuchet MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.ForeColor = System.Drawing.Color.Blue;
@@ -335,6 +353,7 @@ namespace Simple_Calculator
             // btn1
             // 
             this.btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn1.Font = new System.Drawing.Font("Trebuchet MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.ForeColor = System.Drawing.Color.Blue;
