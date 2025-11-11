@@ -183,7 +183,7 @@ namespace Simple_Calculator
                 MessageBox.Show("Enter a Valid Numbers");
             }
 
-            Reset(); 
+            Reset(); ;
         }
 
         private void btn_Click(object sender, EventArgs e)
