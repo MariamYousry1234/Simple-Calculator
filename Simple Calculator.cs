@@ -173,17 +173,19 @@ namespace Simple_Calculator
         {
             try
             {
-                txtResults.Text=
-                GetCalculatorResult(Convert.ToDouble(Calculator.Number1),
+                Calculator.Number1 = GetCalculatorResult(Convert.ToDouble(Calculator.Number1),
                         Convert.ToDouble(Calculator.Number2), Calculator.Operationtype).ToString();
+
+                txtResults.Text = Calculator.Number1.ToString();
+
             }
 
             catch (Exception E)
             {
                 MessageBox.Show("Enter a Valid Numbers");
+               
             }
 
-            Reset(); 
         }
 
         private void btn_Click(object sender, EventArgs e)
